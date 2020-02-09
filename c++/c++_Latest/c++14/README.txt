@@ -1,0 +1,13 @@
+binary_literals
+generic_lambda_expressions
+lambda_capture_initializers
+return_type_deduction
+decltype(auto)
+relaxing_constraints_on_constexpr_functions
+variable_templates
+deprecated_attribute
+
+
+user-defined_literals_for_standard_library_types
+compile-time_integer_sequences
+std::make_unique
