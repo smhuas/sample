@@ -26,9 +26,9 @@ int main()
     cout<<endl;
 
 
-    for(auto iter=v.begin(): v)
+    for(auto iter: v)
     {
-        cout<<*iter<<" "
+        cout<<iter<<" ";
     }
     cout<<endl;
 
