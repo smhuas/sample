@@ -1,0 +1,1 @@
+check for singular_linked_list.cpp in smhuas/database repo; used fold expression in this file.
