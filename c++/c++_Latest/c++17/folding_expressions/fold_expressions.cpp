@@ -15,7 +15,7 @@ auto mul(T... args)
 }
 
 template<typename ...T>
-auto appendstringinfront(T... args) -> string
+auto appendstringinfront(T... args) 
 {
     return ("hello" + ... + args); // binary left fold
 }
@@ -45,7 +45,7 @@ cout<< add(1,2,3,4) << endl;
 cout<< mul(1,2,3,4) << endl;
 
 cout<< appendstringinfront<string>("world") << endl;
-#if 1
+
 cout<< appendstringinend<string>("world") << endl;
 cout<< boolalpha << AND(true,true,true,true,false) <<endl;
 cout<< boolalpha << AND(true,true,true,true,true) <<endl;
@@ -60,7 +60,7 @@ cout<< boolalpha << AND(true,true,true,true,true) <<endl;
 vector<int> v;
 push_back_vec(v,1,2,3,4,5,6,7,8,9,10);
 for(auto i:v){cout<<i<<" ";} cout<<endl;
-#endif
+
 
 
 }
