@@ -16,5 +16,6 @@ struct hello{
 
 int main()
 {
-
+       // usually any static variables in the class cannot be initialized in the class itself, to overcome this use constexpr in static variable declaration
+       // or use inline keyword.
 }
